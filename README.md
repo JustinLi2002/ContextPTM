@@ -26,12 +26,12 @@ All AUROC values on held-out test sets. Ensemble of 10 models with IQR outlier-e
 |-----|------------------|----------|---------|---------------|-----------|
 | Phosphorylation S/T | 0.950 | 0.9510 | 0.9665 | 0.9654 | **0.9672** |
 | Phosphorylation Y | 0.910 | 0.8710 | 0.9321 | 0.9220 | **0.9340** |
-| Sumoylation K | 0.850 | 0.8615 | - | 0.9210 | - |
-| Ubiquitination K | 0.870 | 0.8814 | - | 0.9248 | - |
-| Acetylation K | 0.900 | 0.9049 | - | 0.9560 | - |
-| N-Glycosylation N | 0.980 | 0.9868 | - | 0.9954 | - |
-| Methylation K | 0.950 | 0.9503 | -| 0.9785 | - |
-| Methylation R | 0.960 | 0.9306 | - | 0.9738 | - |
+| Sumoylation K | 0.850 | 0.8615 | 0.9256 | 0.9210 | **0.9269** |
+| Ubiquitination K | 0.870 | 0.8814 | 0.9296 | 0.9248 | **0.9307** |
+| Acetylation K | 0.900 | 0.9049 | 0.9615 | 0.9560 | **0.9623** |
+| N-Glycosylation N | 0.980 | 0.9868 | 0.9968 | 0.9954 | **0.9969** |
+| Methylation K | 0.950 | 0.9503 | 0.9814 | 0.9785 | **0.9815** |
+| Methylation R | 0.960 | 0.9306 | 0.9810 | 0.9738 | **0.9811** |
 
 All three feature variants consistently outperform the original DeepMVP across all 8 PTM types. The combined model achieves the best performance on all PTM types, suggesting that PPI network topology and kinase regulatory context provide complementary information.
 
